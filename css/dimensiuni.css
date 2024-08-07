@@ -1,0 +1,40 @@
+
+.icon-button-container {
+    width: fit-content;
+    display: inline-block;
+}
+
+.icon-button {
+    border: none;
+    background-color: transparent;
+}
+
+.submit-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+#submit-forms-button {
+    margin-left: 13rem;
+}
+
+@media (max-width: 340px) {
+    #submit-forms-button {
+        margin-left: -1rem;
+    }
+    .form-dimensiuni {
+        text-align: center;
+    }
+    #add-form-button-container {
+        margin-left: 3rem;
+    }
+}
+
+.model-ales {
+    display: flex;
+    justify-content: center;
+}
+
+.back-arrow {
+    height: 1.2rem;
+}
