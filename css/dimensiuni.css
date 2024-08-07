@@ -11,11 +11,12 @@
 
 .submit-button-container {
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    margin-top: 1rem;
 }
 
 #submit-forms-button {
-    margin-left: 25rem;
+    margin-left: 0rem;
 }
 
 .model-ales {
