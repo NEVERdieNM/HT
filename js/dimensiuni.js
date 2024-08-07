@@ -8,13 +8,13 @@ function add_form() {
     const input_list_elem = document.getElementById("input-list");
 
     const form_wrapper_elem = document.createElement('div');
-    form_wrapper_elem.classList.add('inputs');
+    form_wrapper_elem.classList.add('inputs', 'container');
     form_wrapper_elem.style.marginTop = '1rem';
-    form_wrapper_elem.innerHTML = `  <form class="form-dimensiuni">
-                                        <input name="nume" type="text" placeholder="Nume">
-                                        <input name="lungime" type="number" step="0.1" min="0" placeholder="Lungime">
-                                        <input name="latime" type="number"  step="0.1" min="0" placeholder="Latime">
-                                        <input name="cantitate" type="number" min="0" placeholder="Cantitate">
+    form_wrapper_elem.innerHTML = `  <form id="form-dimensiuni-1" class="form-dimensiuni row">
+                                        <input class="col" name="nume" type="text" placeholder="Nume reper">
+                                        <input class="col" name="lungime" type="number" step="0.5" min="0" placeholder="Lungime">
+                                        <input class="col" name="latime" type="number" step="0.5" min="0" placeholder="Latime">
+                                        <input class="col" name="cantitate" type="number" min="0" placeholder="Cantitate">
                                     </form>`;
     input_list_elem.appendChild(form_wrapper_elem);
 
